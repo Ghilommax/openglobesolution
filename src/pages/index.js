@@ -142,7 +142,7 @@ export default function Home() {
                 to meet your unique needs. You can reach us through the following
                 contact information:
               </p>
-              <ul className="text-left list-one list-unstyled p-3 text-capitalize">
+              <ul className="text-left list-one list-unstyled p-1 text-capitalize">
                 <li>
                   Address :
                   <span className="fw-bolder">
@@ -154,7 +154,9 @@ export default function Home() {
                   Tel : 571-351-3940
                 </li>
                 <li>
-                  Email Address :OPENGLOBESOLUTIONS@gmail.com
+                  Email Address: <p>
+                    OPENGLOBESOLUTIONS@gmail.com
+                  </p>
                 </li>
 
               </ul>
@@ -167,7 +169,7 @@ export default function Home() {
         <div className="container">
           <div className="footers">
             <h3>   OPEN GLOBE SOLUTIONS </h3>
-            <ul className="text-left list-one list-unstyled text-capitalize m-0 ms-5">
+            <ul className="text-left list-one list-unstyled text-capitalize m-0 ms-0">
               <li>
                 Address :
                 <span className="fw-bolder">
@@ -179,12 +181,19 @@ export default function Home() {
                 Tel : 571-351-3940
               </li>
               <li>
-                Email Address :OPENGLOBESOLUTIONS@gmail.com
+                Email Address:
+                <p>
+                  OPENGLOBESOLUTIONS@gmail.com
+                </p>
               </li>
 
             </ul>
           </div>
-          <p className="text-center mb-0 pb-5 text-white">{` ${new Date().getFullYear()} OPEN GLOBE SOLUTIONS, LLC. All rights reserved.`}</p>
+          <p className="text-center mb-0 pb-5 text-white">
+            <small>
+              &copy; {` ${new Date().getFullYear()} OPEN GLOBE SOLUTIONS, LLC. All rights reserved.`}
+            </small>
+          </p>
         </div>
       </footer>
     </Fragment>
