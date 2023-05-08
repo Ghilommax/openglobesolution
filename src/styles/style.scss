@@ -69,10 +69,16 @@
                 border-right: none;
             }
         }
+
+        @media (max-width:992px) {
+            ul {
+                border-right: none;
+            }
+        }
     }
 }
 
-.one-column {}
+
 
 .column-tree {
     margin: 50px 0;
@@ -91,16 +97,23 @@
 .footer-content {
     background-color: #5a3a27;
     width: 100%;
-    margin: auto;
+    // margin: 0 auto;
 
     .footers {
+        height: 300px;
         color: white;
-        padding: 80px;
+        padding-top: 80px;
+        gap: 4rem;
         display: flex;
         flex-wrap: wrap;
 
         .link-address {
             color: white;
         }
+
+    }
+
+    small {
+        margin: 0;
     }
 }
